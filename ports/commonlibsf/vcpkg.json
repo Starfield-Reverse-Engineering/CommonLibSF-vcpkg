@@ -1,0 +1,24 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "commonlibsf",
+  "version-string": "latest",
+  "description": "CommonLibSF",
+  "homepage": "https://github.com/Starfield-Reverse-Engineering/CommonLibSF",
+  "dependencies": [
+    "spdlog",
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ],
+  "features": {
+    "xbyak": {
+      "description": "xbyak support",
+      "dependencies": ["xbyak"]
+    }
+  }
+}

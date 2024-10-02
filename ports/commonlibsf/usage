@@ -1,0 +1,9 @@
+The package CommonLibSF provides CMake targets:
+
+    find_package(CommonLibSF CONFIG REQUIRED)
+
+    add_commonlibsf_plugin(
+        ${PROJECT_NAME}
+        AUTHOR <your name>
+        SOURCES <your source files>
+    )

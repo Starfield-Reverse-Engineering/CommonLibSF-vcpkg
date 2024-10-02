@@ -1,0 +1,8 @@
+{
+  "default": {
+    "commonlibsf": {
+      "baseline": "latest",
+      "port-version": 0
+    }
+  }
+}
