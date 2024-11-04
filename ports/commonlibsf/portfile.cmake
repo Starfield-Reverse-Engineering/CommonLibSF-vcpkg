@@ -1,8 +1,8 @@
 vcpkg_from_github(
   OUT_SOURCE_PATH SOURCE_PATH
   REPO Starfield-Reverse-Engineering/CommonLibSF
-  REF 05ead67dbc242e3433865a9c4db3c906f2dc9759
-  SHA512 36ee7d7c2afc70ef1a9646ce1b04c207d76e3d846b0edf464d1f2f4749850bb3c167fb790e869f098271fa22d5e532ea99b13d0fccd0fedc6e62fef6cfb9d9c2
+  REF fe16a5cc9acbb457e24ce4dcecbd7f20e032ce14
+  SHA512 40aedf4f349e4a74a6642b057d66874b6c0fe43721fbc3f3545faedc7d7588881fe5a6f69cd42803f2735dcdd5468f2d6a57f64644b9f4f1e5ab7a3cf9a6def9
   HEAD_REF main
 )
 
